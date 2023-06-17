@@ -32,6 +32,8 @@ const getPokemon = async (id) => {
     createPokemonCard(data)
 }
 
+fetchPokemons()
+
 const createPokemonCard = (pokemon) => {
     const pokemonEl = document.createElement('div')
     pokemonEl.classList.add('pokemon')
